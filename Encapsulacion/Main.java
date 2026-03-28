@@ -25,5 +25,13 @@ public class Main {
         } else {
             System.out.println("El rectangulo 2 tiene mayor area");
         }
+        Producto pr1 = new Producto("001", "Laptop", 5000);
+        Producto pr2 = new Producto("002", "Mouse", 200);
+
+        pr1.aplicarDescuento(10);
+        pr2.aplicarDescuento(5);
+
+        System.out.println(pr1);
+        System.out.println(pr2);
 }
 }

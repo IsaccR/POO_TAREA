@@ -41,5 +41,13 @@ public class Main {
         c1.retirar(2000);
 
         System.out.println(c1);
+        
+        Libro l1 = new Libro("Java Basico", "Luis", 350);
+        Libro l2 = new Libro("Programacion", "Ana", 200);
+        Libro l3 = new Libro("Estructuras", "Carlos", 500);
+
+        System.out.println(l1 + " Largo: " + l1.esLargo());
+        System.out.println(l2 + " Largo: " + l2.esLargo());
+        System.out.println(l3 + " Largo: " + l3.esLargo());
 }
 }

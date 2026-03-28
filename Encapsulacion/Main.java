@@ -55,5 +55,16 @@ public class Main {
         System.out.println("Resta: " + calc.restar(10, 5));
         System.out.println("Multiplicacion: " + calc.multiplicar(10, 5));
         System.out.println("Division: " + calc.dividir(10, 0));
-}
+
+        Fecha f1 = new Fecha(10, 5, 2024);
+        Fecha f2 = new Fecha(32, 8, 2024);
+        Fecha f3 = new Fecha(15, 13, 2024);
+
+        System.out.println(f1 + " Valida: " + f1.esValida());
+        System.out.println(f2 + " Valida: " + f2.esValida());
+        System.out.println(f3 + " Valida: " + f3.esValida());
+    }
+	    
+	    
+	    
 }

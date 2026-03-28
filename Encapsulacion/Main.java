@@ -49,5 +49,11 @@ public class Main {
         System.out.println(l1 + " Largo: " + l1.esLargo());
         System.out.println(l2 + " Largo: " + l2.esLargo());
         System.out.println(l3 + " Largo: " + l3.esLargo());
+        
+        Calculadora calc = new Calculadora();
+        System.out.println("Suma: " + calc.sumar(10, 5));
+        System.out.println("Resta: " + calc.restar(10, 5));
+        System.out.println("Multiplicacion: " + calc.multiplicar(10, 5));
+        System.out.println("Division: " + calc.dividir(10, 0));
 }
 }

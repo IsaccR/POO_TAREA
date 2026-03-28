@@ -33,5 +33,13 @@ public class Main {
 
         System.out.println(pr1);
         System.out.println(pr2);
+        
+        Cuenta c1 = new Cuenta("Ana", 1000);
+
+        c1.depositar(500);
+        c1.retirar(200);
+        c1.retirar(2000);
+
+        System.out.println(c1);
 }
 }
